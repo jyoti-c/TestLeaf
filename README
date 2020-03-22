@@ -1,0 +1,6 @@
+The follwoing project is a TDD framework and has Page Object Model design pattern. 
+
+You can run the tests by running the test suite testng.xml
+or mvn clean test
+
+The results are stored in target/surefire-reports/All%20Tests/Login.html
