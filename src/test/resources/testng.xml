@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Tests" verbose="5" data-provider-thread-count="1">
+	<test name="Login" enabled="true">
+		<parameter name="path" value="/"></parameter>
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="iaminADP@95"></parameter>
+		<classes>
+			<class name="leaf.qa.pages.TestLeaf"/>
+		</classes>
+	</test>	
+
+</suite>
